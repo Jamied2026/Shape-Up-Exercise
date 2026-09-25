@@ -7,18 +7,31 @@ height: 150px;
  }
 
  body{
-   width: 900px;
-   margin: auto;
-   border: 5px steelblue;
+   width: 1200px;
+   margin:40px auto;
+   border: 3px steelblue;
    font-family: Calibri;
    line-height: 18px;
 
+
  }
- h3{
+ .col2 h3{
    color:darkred;
    text-decoration: underline;
 
  }
+ .col1,.col3 h2{
+   color:darkred;
+ }
+
+.layout{
+  display:flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  justify-content: space-between;
+  gap: 30px;
+  }
+
 
  ul{
    color:dodgerblue;
