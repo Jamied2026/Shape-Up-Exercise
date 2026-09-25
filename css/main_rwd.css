@@ -43,6 +43,7 @@ display:flex;
   text-decoration:none;
   font-size: 18px;
 font-weight: bold;
+
 }
 
 @media screen and (max-width: 900px) {
@@ -52,9 +53,19 @@ font-weight: bold;
   }
 }
 @media screen and (max-width: 767px){
-body{
+     body{
+font-size:80%;
+     .menu{
+display:none;}
+}
 
 }
+
+@media screen and (max-width:479px){
+  body{
+    font-size:70%;
+  }
+
 }
 .col1 h2{
   color:darkred;
