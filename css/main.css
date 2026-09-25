@@ -1,0 +1,38 @@
+ .header{
+   background: linear-gradient(white, lightsteelblue);
+   width: 100%;
+   display:flex;
+   border-bottom: 3px solid steelblue;
+height: 150px;
+ }
+
+ body{
+   width: 900px;
+   margin: auto;
+   border: 5px steelblue;
+   font-family: Calibri;
+   line-height: 18px;
+
+ }
+ h3{
+   color:darkred;
+   text-decoration: underline;
+
+ }
+
+ ul{
+   color:dodgerblue;
+   text-decoration: underline;
+
+ }
+
+ .footer{
+   text-align: center;
+   padding: 20px;
+   color: white;
+   background-color:steelblue;
+ }
+h1{font-size: 48px;
+  color: cornflowerblue;
+
+}
