@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Shape Up!</title>
+  <link rel="stylesheet" href="css/main_rwd.css">
+  <link rel="stylesheet" href="styles/slicknav.css">
+</head>
+
+<body>
+<header class="header">
+  <a href ="index_rwd.html"></a>
+  <img src="images/shape_up_logo.png">
+  <h1>Shape Up!</h1>
+  <h2>Find the best fit for you</h2>
+</header>
+<div class = "menu">
+  <a href = "index_rwd.html"class="active">Home</a>
+  <a href = "#">Strength Training</a>
+  <a href = "#">Cardio Exercises</a>
+  <a href = "meditate.html">Stress Relief</a>
+  <a href = "Form.html">Healthy Diets</a>
+
+</div>
+<div class="layout">
+  <div class="col1">
+    <h2>Additional Resources</h2>
+    <ul>
+      <li>Physical activity and health</li>
+      <li>Streching Exercises</li>
+      <li>Strength training</li>
+      <li>Cardiovascular training</li>
+      <li>Yoga Workout</li>
+    </ul>
+
+  </div>
+  <div class="col2">
+    <h2>What is a Body Mass Index?</h2>
+    <p>Body mass index (BMI) is a measure of a person's body fat based on his or her height and weight. It can be used to determine if you are underweight, normal, overweight, or obese.</p>
+
+    <h3>Calculate your Body Mass Index</h3>
+    <p>Use the form that follows to calculate your BMI.</p>
+
+    <!-- BMI Calculation Form -->
+    <form id="bmiForm">
+      <fieldset>
+        <legend>Enter your information</legend>
+
+        <p>
+          <label for="feet">Height:</label>
+          <input type="number" id="feet" name="feet"> ft.
+          <input type="number" id="inches" name="inches"> in.
+        </p>
+
+        <p>
+          <label for="weight">Weight:</label>
+          <input type="number" id="weight" name="weight"> lbs.
+        </p>
+
+        <p>
+          <label for="bmi">BMI:</label>
+          <input type="text" id="bmi" name="bmi">
+        </p>
+
+        <p>
+          <input type="button" id="calculate">
+          <input type="reset" id="reset" value="Reset">
+        </p>
+      </fieldset>
+    </form>
+
+    <h3>What do my results mean? Health authorities agree that:</h3>
+    <ul>
+      <li>People with a BMI of less than 18.5 are underweight.</li>
+      <li>A BMI of between 18.5 and 25 is ideal.</li>
+      <li>People with a BMI between 25 and 30 are considered overweight.</li>
+      <li>People with a BMI over 30 are considered obese.</li>
+    </ul>
+  </div>
+
+
+</div>
+
+
+
+<footer class="footer"><p>©2022 Shape Up!</p></footer>
+</body>
+</html>
